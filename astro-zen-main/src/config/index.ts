@@ -1,23 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Scott Pedrick — Mobile & Web Developer",
+  author: "Scott Pedrick",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Tampa, Florida. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/avatar-big-bw.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/mediamightshow" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/scottpedrick/" },
+    { text: "Github", href: "https://github.com/sp9000" },
+    { text: "Youtube", href: "https://www.youtube.com/@mediamightpro" },
+    { text: "UltGuitar", href: "https://www.ultimate-guitar.com/u/mpedrick07" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,41 +25,44 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
+    name: "Scott Pedrick",
     specialty: "Mobile & Web Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Developer based in Tampa, Florida. I specialize in UI design, web and mobile application development and maintenance.",
+    email: "scott.pedrick@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Hines Media Family, LLC",
+      position: "Owner/Lead Developer",
+      startDate: "June 2018",
+      endDate: " - Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Founded digital marketing and development agency based in Tampa, Florida.",
+        "Focus: Social media advertising, digital marketing strategy, and brand growth for small businesses",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "PP+K Agency",
+      position: "Front End Web Developer",
+      startDate: "May 2012",
+      endDate: "August 2016",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed and designed responsive websites and web applications for major clients including ISM, Big Boy, Checkers, Spectrum, and Tires Plus using HTML, CSS, JavaScript, for the Laravel back-end developers.",
+        "Built dynamic and static websites while creating in-house tools that streamlined video production workflows.",
+        "Collaborated within a full-service creative agency environment, working closely with designers, creatives, media buyers, and production teams to deliver high-quality digital solutions.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "Tampa Digital",
+      position: "Web Designer",
+      startDate: "June 2009",
+      endDate: "November 2011",
+      summary: [
+        "Created graphic elements and coded animations for web banners, displays, and digital content for the web team.",
+        "Junior Designer & Printer - Computer Graphics Division Television Production & Media Company November 2009 - November 2011 producing high-quality print and digital media assets using Adobe Creative Suite (Photoshop, Illustrator, InDesign), specializing in layout, color design, and typography.",
+        "Designed custom live streaming events, including the Purina Dog Challenge (St. Louis, MO), Unlimited Hydroplane Races (Seattle, WA), and Team USA Rugby matches at college and professional arenas across the country.",
+      ],
     },
   ],
   projects: [
