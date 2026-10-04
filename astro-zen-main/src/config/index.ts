@@ -62,14 +62,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: [
         "Created graphic elements and coded animations for web banners, displays, and digital content for the web team.",
         "Junior Designer & Printer - Computer Graphics Division Television Production & Media Company November 2009 - November 2011 producing high-quality print and digital media assets using Adobe Creative Suite (Photoshop, Illustrator, InDesign), specializing in layout, color design, and typography.",
-        "Designed custom live streaming events, including the Purina Dog Challenge (St. Louis, MO), Unlimited Hydroplane Races (Seattle, WA), and Team USA Rugby matches at college and professional arenas across the country.",
+        "Designed custom web video players for live streaming events, including the Purina Dog Challenge (St. Louis, MO), Unlimited Hydroplane Races (Seattle, WA), and Team USA Rugby matches at college and professional arenas across the country.",
       ],
     },
   ],
   projects: [
     {
       name: "Checkers",
-      summary: "Designed and programmed cross-platform digital experiences using HTML/CSS/JavaScript. ",
+      summary: "Designed and programmed cross-platform digital experiences using HTML/CSS/JavaScript.",
       linkPreview: "/checkers0.jpg",
       linkSource: "https://checkersandrallys.com/",
       image: "/checkers0.jpg",
@@ -82,8 +82,8 @@ export const SITE_CONTENT: SiteContent = {
       image: "/bigboy-store.png",
     },
     {
-      name: "MOSI Mission: Moonbase",
-      summary: "Programmed and animated interactive moon mission games for a science and aerospace exhibit.",
+      name: "MOSI",
+      summary: "Coded and animated interactive games for Mission: Moonbase. ",
       linkPreview: "/mosi-moonbase.jpeg",
       linkSource: "https://mosi.org/exhibit/mission-moonbase/",
       image: "/mosi-moonbase.jpeg",
@@ -91,7 +91,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Scott Pedrick, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Scott Pedrick, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. I cut my teeth at an award-winning advertising agency, contributing to the design and development of websites and applications for notable clients such as ISM, Big Boy, Checkers, Spectrum, and Tires Plus.
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
