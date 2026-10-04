@@ -83,7 +83,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "MOSI Mission: Moonbase",
-      summary: "Programmed and animated interactive moon mission games for a museum, engaging visitors while teaching science and aerospace concepts.",
+      summary: "Programmed and animated interactive moon mission games for a science and aerospace exhibit.",
       linkPreview: "/mosi-moonbase.jpeg",
       linkSource: "https://mosi.org/exhibit/mission-moonbase/",
       image: "/mosi-moonbase.jpeg",
