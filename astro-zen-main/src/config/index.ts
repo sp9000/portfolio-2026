@@ -69,14 +69,14 @@ export const SITE_CONTENT: SiteContent = {
   projects: [
     {
       name: "Checkers",
-      summary: "Designed and programmed cross-platform digital experiences using HTML/CSS/JavaScript, ensuring 100% brand consistency and visual symmetry with high-profile broadcast media.",
+      summary: "Designed and programmed cross-platform digital experiences using HTML/CSS/JavaScript. ",
       linkPreview: "/checkers0.jpg",
       linkSource: "https://checkersandrallys.com/",
       image: "/checkers0.jpg",
     },
     {
       name: "Bob's Big Boy",
-      summary: "Lead development and launch of the e-commerce store, expanding to dozens of new product lines. Collaborated with cross-functional teams to ensure the web architecture seamlessly supported high-volume traffic.",
+      summary: "Lead development and launch of the e-commerce store, expanding to dozens of new product lines.",
       linkPreview: "/bigboy-store.png",
       linkSource: "https://shop.bigboy.com/",
       image: "/bigboy-store.png",
